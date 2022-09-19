@@ -8,8 +8,8 @@ This github repository is set up for the proposal of a web application to better
 This application currently is set up as a proof of concept for the proposal, and only has a few functions to test IMDb implementation through Cinemagoer wrapper API. 
 
 These functions include:
- - getDirector(): Function to get directors of a movie
- - getPeopleList(): Function to get a list of actors/actresses of similar name
+ - getDirector(movieTitle): Function to get directors of a movie
+ - getPeopleList(person): Function to get a list of actors/actresses of similar name
  - getTop10Movies(): Get top 10 movies on IMDb
  - getBottom10Movies(): Get bottom 10 movies on IMDb
  
