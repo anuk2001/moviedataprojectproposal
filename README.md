@@ -15,5 +15,5 @@ These functions include:
  
  All of these functions call upon the Cinemagoer instance to retrieve data from IMDb.
  
- In order to use the current proposal build: basic knowledge of Python syntax is required, as. Clone the repository to your desktop or preferred workspace and open with VSCode, or another suitable editor. In the code, call the function with the required parameters, run the code, and view the output.
+ In order to use the current proposal build: basic knowledge of Python syntax is required. Clone the repository to your desktop or preferred workspace and open with VSCode, or another suitable editor. In the code, call the function with the required parameters, run the code, and view the output.
  
