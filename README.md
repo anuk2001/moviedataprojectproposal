@@ -10,8 +10,8 @@ This application currently is set up as a proof of concept for the proposal, and
 These functions include:
  - getDirector(movieTitle): Function to get directors of a movie
  - getPeopleList(person): Function to get a list of actors/actresses of similar name
- - getTop10Movies(): Get top 10 movies on IMDb
- - getBottom10Movies(): Get bottom 10 movies on IMDb
+ - getTopNMovies(): Get top n movies on IMDb
+ - getBottomNMovies(): Get bottom n movies on IMDb
  
  All of these functions call upon the Cinemagoer instance to retrieve data from IMDb.
  
