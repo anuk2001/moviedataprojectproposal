@@ -16,20 +16,22 @@ def getPeopleList(person):
         print(person['name'])
 
 # Get top 10 movies
-def getTop10Movies():
+def getTopNMovies(n):
     im = Cinemagoer()
-    top10 = im.get_top250_movies()
-    print('Top 10 Movies on IMDb:')
-    for i in range(10):
-        print(top10[i])
+    top = im.get_top250_movies()
+    print('Top ' + str(n) + ' Movies on IMDb:')
+    for i in range(n):
+        print(str(i+1) + ':' + ' ' + str(top[i]))
 
 # Get bottom 10 movies    
-def getBottom10Movies():
+def getBottomNMovies(n):
     im = Cinemagoer()
-    bottom10 = im.get_bottom100_movies()
-    print('Bottom 10 Movies on IMDb:')
-    for i in range(10):
-        print(bottom10[i])
+    bottom = im.get_bottom100_movies()
+    print('Bottom ' + str(n) + ' Movies on IMDb:')
+    for i in range(n):
+        print(str(i+1) + ':' + ' ' + str(bottom[i]))
 
-
+getTopNMovies(10)
+print()
+getBottomNMovies(10)
 
